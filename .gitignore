@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test coverage
+/coverage
+
+# Vitest artifacts (browser screenshots/attachments)
+**/__screenshots__/
+.vitest-attachments/
+
+# Repo meta (non-core)
+.github/
+CHANGELOG.md
+LICENSE
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+FUNDING.yml
+PULL_REQUEST_TEMPLATE.md
+cz.yaml
+knip.config.ts
+netlify.toml
+
+# Project docs (non-frontend)
+Task/
+
+# Claude Code
+.agents/
+.claude/
+skills-lock.json
