@@ -51,4 +51,5 @@ Task/
 # Claude Code
 .agents/
 .claude/
+.superpowers/
 skills-lock.json
